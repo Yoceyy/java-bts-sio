@@ -1,0 +1,82 @@
+/* Styles pour l'application JavaFX */
+
+/* Style général du AnchorPane */
+AnchorPane {
+    -fx-background-color: #f0f0f0;
+}
+
+/* Style pour tous les Text (labels) */
+Text {
+    -fx-font-size: 12px;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+}
+
+/* Style des champs de texte */
+TextField {
+    -fx-font-size: 10px;
+    -fx-padding: 5px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-background-color: #ffffff;
+}
+
+/* Styles individuels pour les champs de texte avec une largeur différente */
+TextField[promptText="12"] {
+    -fx-pref-width: 22px;
+}
+
+TextField[promptText="91150"] {
+    -fx-pref-width: 92px;
+}
+
+TextField[promptText="+33 75 43 45 65 46"] {
+    -fx-pref-width: 120px;
+}
+
+/* Style des boutons */
+Button {
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-background-color: #4CAF50;
+    -fx-background-radius: 10px;
+    -fx-pref-height: 30px;
+    -fx-pref-width: 100px;
+    -fx-cursor: hand;
+}
+
+/* Styles spécifiques pour les boutons en fonction de leur texte */
+Button[text="AJOUT"] {
+    -fx-background-color: #2196F3; /* Bleu pour le bouton AJOUT */
+}
+
+Button[text="<< Affiche"] {
+    -fx-background-color: #FF9800; /* Orange pour << Affiche */
+}
+
+Button[text="Affiche >>"] {
+    -fx-background-color: #FF9800; /* Orange pour Affiche >> */
+}
+
+Button[text="Quitter"] {
+    -fx-background-color: #F44336; /* Rouge pour le bouton Quitter */
+}
+
+/* Effets survol (hover) pour les boutons */
+Button:hover {
+    -fx-background-color: #45a049;
+}
+
+Button[text="AJOUT"]:hover {
+    -fx-background-color: #1E88E5;
+}
+
+Button[text="<< Affiche"]:hover,
+Button[text="Affiche >>"]:hover {
+    -fx-background-color: #FB8C00;
+}
+
+Button[text="Quitter"]:hover {
+    -fx-background-color: #D32F2F;
+}

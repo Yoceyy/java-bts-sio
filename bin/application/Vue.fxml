@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controlleur">
+   <children>
+      <Text layoutX="80.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom : " wrappingWidth="51.79557228088379" />
+      <Text layoutX="79.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prenom : " wrappingWidth="76.93359375" />
+      <Text layoutX="65.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rue" wrappingWidth="30.79557228088379" />
+      <Text layoutX="297.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N°" wrappingWidth="18.79557228088379" />
+      <Text layoutX="407.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Département" />
+      <Text layoutX="147.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Téléphone :" wrappingWidth="92.69791412353516" />
+      <TextField layoutX="183.0" layoutY="98.0" />
+      <TextField layoutX="177.0" layoutY="141.0" />
+      <TextField layoutX="117.0" layoutY="196.0" promptText="rue jean lucas" />
+      <TextField layoutX="325.0" layoutY="202.0" prefHeight="26.0" prefWidth="42.0" promptText="12" />
+      <TextField layoutX="503.0" layoutY="202.0" prefHeight="26.0" prefWidth="102.0" promptText="91150" />
+      <TextField layoutX="249.0" layoutY="282.0" promptText="+33 75 43 45 65 46" />
+      <Button layoutX="65.0" layoutY="443.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" text="AJOUT" />
+      <Button layoutX="188.0" layoutY="443.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="102.0" text="&lt;&lt; Affiche" />
+      <Button layoutX="331.0" layoutY="443.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="102.0" text="Affiche &gt;&gt;" />
+      <Button layoutX="503.0" layoutY="443.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="102.0" text="Quitter" />
+   </children>
+</AnchorPane>
